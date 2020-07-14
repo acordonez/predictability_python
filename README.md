@@ -11,7 +11,7 @@ This is a demo of how to recreate some types of plots from my paper on sea ice p
 
 ### Dependencies
 
-This repo relies on the following packages:
+I've included my full environment file, but here are the main packages used in this repo:
 1. numpy
 2. matplotlib.pyplot
 3. mpt_toolkits.basemap
