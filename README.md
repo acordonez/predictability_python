@@ -9,7 +9,7 @@ This is a demo of how to recreate some types of plots from my paper on sea ice p
 3. Generate the region mask by running `make_region_mask.py`
 4. Run the jupyter notebook `ice_area_correlation_plots.ipynb`. 
     1. If you are using a different LENS member, change the variable `cesm_data` to your file name.  
-    2. If you can run Basemap in Jupyter notebooks without getting the [PROJ_LIB error](https://ctcoding.wordpress.com/2019/01/29/solved-proj_lib-error-when-installing-basemap-on-windows-using-anaconda/), delete the following lines of code:  
+    2. If you can import Basemap in Jupyter notebooks without getting the [PROJ_LIB error](https://ctcoding.wordpress.com/2019/01/29/solved-proj_lib-error-when-installing-basemap-on-windows-using-anaconda/), delete the following lines of code:  
         `import os`  
         `os.environ['PROJ_LIB'] = r'C:\Users\Ana\anaconda3\pkgs\proj4-5.2.0-ha925a31_1\Library\share'`  
     3. Otherwise, if using conda, set `os.environ['PROJ_LIB']` to the path for your proj4 installation  
